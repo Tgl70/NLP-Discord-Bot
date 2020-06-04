@@ -1,0 +1,117 @@
+{
+        "start_position": "tavern",
+        "player_info": {
+                "health_max": 20,
+                "health": 20
+        },
+        "inventory": ["armour"],
+        "knowledge": [],
+        "locations": {
+                "tavern": {
+                        "conditions": [],
+                        "options" : [
+                              "look at the window"
+                        ],
+                        "links": ["backyard", "corridor"],
+                        "objects": [],
+                        "NPCs": ["bartender", "villager"]
+                },
+                "backyard": {
+                        "conditions": [],
+                        "options": [
+                                "dig a hole"
+                        ],
+                        "links": ["tavern"],
+                        "objects": [],
+                        "NPCs": ["goblin"]
+                },
+                "bedroom 1": {
+                        "conditions": [],
+                        "options": [
+                                "sleep"
+                        ],
+                        "links": ["corridor"],
+                        "objects": ["sword"],
+                        "NPCs": []
+                },
+                "bedroom 2":  {
+                        "conditions": [],
+                        "options": [
+                                "sleep"
+                        ],
+                        "links": ["corridor"],
+                        "objects": ["shield"],
+                        "NPCs": []
+                },
+                "bedroom 3": {
+                        "conditions": ["key"],
+                        "options": [
+                                "sleep"
+                        ],
+                        "links": ["corridor"],
+                        "objects": [],
+                        "NPCs": ["monster"]
+                },
+                "corridor": {
+                        "conditions": [],
+                        "options": [
+                                "step to the other side of the corridor"
+                        ],
+                        "links": ["tavern", "bedroom 1", "bedroom 2", "bedroom 3"],
+                        "objects": [],
+                        "NPCs": []
+                }
+        },
+        "objects": {
+                "armour": {
+                        "interactions": ["pick_up"],
+                        "action": "wearing",
+                        "damage": 0,
+                        "protection": 5
+                },
+                "sword": {
+                        "interactions": ["pick_up", "attack"],
+                        "action": "carrying",
+                        "damage": 10,
+                        "protection": 3
+                },
+                "shield": {
+                        "interactions": ["pick_up"],
+                        "action": "carrying",
+                        "damage": 0,
+                        "protection": 10
+                },
+                "key": {
+                        "interactions": ["pick_up"],
+                        "action": "carrying",
+                        "damage": 0,
+                        "protection": 0
+                }
+        },
+        "NPCs": {
+                "bartender": {
+                        "attitude": 0,
+                        "interactions": ["talk"],
+                        "health": 20,
+                        "damage": 3
+                },
+                "villager": {
+                        "attitude": -1,
+                        "interactions": ["talk"],
+                        "health": 20,
+                        "damage": 6
+                },
+                "monster": {
+                        "attitude": -9999,
+                        "interactions": ["fight"],
+                        "health": 30,
+                        "damage": 10
+                },
+                "goblin": {
+                        "attitude": -9999,
+                        "interactions": ["fight"],
+                        "health": 6,
+                        "damage": 2
+                }
+        }
+}

@@ -1,0 +1,21 @@
+intents:
+  - greet
+  - farewell
+  - affirm
+  - deny
+  - thanking
+  - move_to
+  - attack
+  - inform_name
+  - pick_up_object
+  - talk_to_npc
+  - explore
+  - get_position_info
+  - get_inventory_info
+  - get_player_info
+  - ask_info
+  - buy_drink
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

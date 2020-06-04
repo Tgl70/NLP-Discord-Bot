@@ -1,0 +1,292 @@
+{
+    "start_game": [
+        "You have just arrived at a village where everything looks abandoned, people are afraid to leave their houses. The inn is the only place open at this hour of the night. You have just entered and you observe that there is no one except for the bartender behind the bar and a villager sitting alone in bar hiding his face under a hood. The inn has also backyard and a corridor upstairs with a few rooms. Perhaps, it is a good idea to start a conversation with the bartender. He might have some information about what is going on here."
+    ],
+    "end_game": {
+        "close": [
+            "As you prefer, closing game now. You will have to start all over again",
+            "That's a pity. Who's going to save these people now that you left?",
+            "This is not how it was supposed to end."
+        ],
+        "win": [
+            "Yes! The monster is dead now. This village can resume its normal life thanks to you.",
+            "You saved the people of this village. That monster won't make harm to anyone else",
+            "Finally someone was brave enough to face this monster. The whole village owes you one. Well done!"
+        ],
+        "lose": [
+            "Good effort, but you are dead. The game is over now.",
+            "No! You have just died. Try harder next time",
+            "That was fatal. Who's going to save the village now that you died?"
+        ]
+    },
+    "move_to": {
+        "no_location": [
+            "You will have to be more precise. Please tell me the place where you want to go next time.",
+            "Sorry, I didn't get the destination.",
+            "Without a destination you cannot go anywhere."
+        ],
+        "current": [
+            "Hey, are you drunk? you're already here.",
+            "I think you are a bit confused, you're here already.",
+            "Really? You are there already."
+        ],
+        "non_existing": [
+            "The place you are looking doesn't exist",
+            "This place doesn't exist",
+            "Please, don't invent new locations"
+        ],
+        "impossible": [
+            "You cannot move to {loc} from this place.",
+            "You cannot go to {loc} at the moment.",
+            "Sorry, but you can't go to {loc}"
+        ],
+        "inaccessible": [
+            "You are missing something to access this place.",
+            "This place is not accessible right now.",
+            "The {loc} is locked for you at this moment."
+        ],
+        "moving": [
+            "Fine, you go to the {loc}",
+            "Why not? You are now at the {loc}",
+            "Ok, moving to {loc}"
+        ]
+    },
+    "descriptions": {
+        "corridor": ". As you head upstairs, you arrive at a narrow hallway. There are three rooms. Something about room 3 at the end of the corridor makes you pause. A cold gust of wind and a smell of evil seems to seep out from underneath the door.",
+        "backyard": ". The backyard of the inn is silent. Thin glass walls shelter the tables from the worst of the cold weather. At the back, a nasty goblin tries to hide when you enter. You would do a favour to these people if you kill it now.",
+        "bedroom 1": ". The door opens up to your bedroom. The room consists of a small bed, and a single nightstand. A window over the bed looks out into the backyard downstairs. Hanging on the wall there is what looks like an ancient sword. Still, it seems to be in a good status.",
+        "bedroom 2": ". The door creaks open as you step inside the dimly lit room. The room contains a small double bed and a nightstand. On the floor, resting against the wall you can see a shield. Looks like if someone had left it here you.",
+        "bedroom 3": ". The door in front of you slams open. The smell of death fills your nose, so strong your eyes starts to water. A low male chuckle makes fear run cold down your spine. The creature starts to slowly circle you as if you are his pray, his next meal."
+    },
+    "pick_up_object": {
+        "no_objects": [
+            "You will have to be more specific.",
+            "Ok, but tell me the object you want to pick up.",
+            "Try being more precise on your requests. I don't know what objects you want to pick up."
+        ],
+        "non_existing": [
+            "Are you blind? There isn't any {object} here.",
+            "Let's stick to what you can see in this place.",
+            "This is strange. You're trying to pick up an object that is not here."
+        ],
+        "impossible": [
+            "I'm afraid you cannot grab the {object}.",
+            "Try with something that you can add to your inventory. The {object} isn't case.",
+            "That's unfortunate, but you cannot pick up the {object}."
+        ],
+        "grabbing": [
+            "Ok, now you are {action} the {object}.",
+            "As you like, you are {action} the {object} now.",
+            "Great! The {object} might be useful in the future, now you are {action} it."
+        ]
+    },
+    "talk_to_npc": {
+        "no_npc": [
+            "Sorry, you will have to tell me who you want to talk to.",
+            "I'm afraid fortune teller, you will have to be more specific.",
+            "If you don't tell me who you want to talk to I cannot help you."
+        ],
+        "non_existing": [
+            "The character you want to talk to does not exist.",
+            "Please, stick to the characters in the story.",
+            "That person does not exist in this story."
+        ],
+        "not_possible": [
+            "You cannot talk to this character.",
+            "Talking with this character won't do you any good.",
+            "There are no words you can said to this character that could change the situation."
+        ],
+        "bartender": {
+            "not_here": [
+                "The bartender is not here. He is always behind the bar.",
+                "You cannot talk with the innkeeper from here, he is still at the bar.",
+                "You will have to go to the bar if you want to speak with the bartender."
+            ],
+            "unknown": [
+                "Yes, that's a good idea, but I must advise you to be gentle. He is scared and might not be ready to speak about what happened here if you are not wary.",
+                "Ok, but be wary. He is truly afraid and might not give you the information you're looking for if you don't act properly.",
+                "Fine. Before you go to speak with him I must warn you that he's a bit afraid because of what happened and might not be ready to speak with you about what is going on."
+            ],
+            "known": [
+                "Ok, he is behind the bar washing some glasses.",
+                "Fine, go ahead. He is willing to talk with someone.",
+                "As you want, he is at the same place where you left him."
+            ]
+        },
+        "villager": {
+            "not_here": [
+                "You will have to go to the bar again if you want to speak with him.",
+                "He isn't here. He's still sitting at bar.",
+                "Go to the bar if you want to talk to him."
+            ],
+            "unknown": [
+                "Ok. Before you go to talk to the villager let me tell you that he's a difficult man. You will have to find a way to make him speak.",
+                "Fine, let's see what he got, but first, let me advise you that you might need to do something for the villager before we can give you what you are looking for.",
+                "As you want, but I must warn you that villager over there is a difficult man. You will need to find a way so that he is on your side."
+            ],
+            "known": [
+                "That's ok. The villager is still where you left him.",
+                "Fine, go to his table and talk to him. He's still drinking there.",
+                "As you prefer. The villager is still drinking at the same table."
+            ]
+        }
+    },
+    "explore": {
+        "objects": {
+            "zero": [
+                "There isn't any object you can take here. ",
+                "This place has no objects you can pick up.",
+                "It seems kind of empty. You cannot take anything here. "
+            ],
+            "one": [
+                "You can only take the {param}. ",
+                "There is a {param} you can take. ",
+                "Someone might have dropped a {param} here. "
+            ],
+            "multiple": [
+                "There are some objects you could use like a {param}",
+                "Here you can take a {param}",
+                "Someone might have dropped a {param}"
+            ]
+        },
+        "npcs": {
+            "zero": [
+                "You are alone in this place. ",
+                "No other characters here. ",
+                "Looks pretty empty to me. No one can harm you here. "
+            ],
+            "one": [
+                "Perhaps, you could try to {interaction} with the {param}. ",
+                "Only the {param} here, you might want to go and {interaction} with him. ",
+                "You are not alone, the {param} is also here, you could try to {interaction} with him. "
+            ],
+            "multiple": [
+                "Here you can {interaction} with the {param}",
+                "You are not alone, you have the option to {interaction} with the {param}",
+                "There are some other characters here. You can try to {interaction} with the {param}"
+            ]
+        },
+        "links": {
+            "zero": [
+                "Sorry, but you are trap in here. Restart the game."
+            ],
+            "one": [
+                "And you could go back to {param}.",
+                "When you are done here, try going back to {param}.",
+                "Only one way out from here, the {param}."
+            ],
+            "multiple": [
+                "And you can go to the {param}",
+                "And you can also move to the {param}",
+                "Also, you might want to go to the {param}"
+            ]
+        }
+    },
+    "get_inventory_info": {
+        "empty": [
+            "You are not carrying anything right now",
+            "I'm afraid your inventory is empty",
+            "It seems there's nothing in your bag at the moment"
+        ],
+        "one_element": [
+            "You are {action} {object} at the moment",
+            "Your inventory is almost empty, you are just {action} {object}",
+            "You don't have many things yet, you are {action} {object}"
+        ],
+        "various_elements": [
+            "At this moment you are",
+            "Based on what I see in your inventory, you are",
+            "Taking a quick look at your belongings, you are"
+        ]
+    },
+    "get_player_info": [
+        "You have {health} health points right now {name}",
+        "Oh your health, it is equals to {health} points",
+        "You have {health} out of 20 hp {name}"
+    ],
+    "get_position_info": [
+        "You are in the {loc} {name}.",
+        "Perhaps you should know this by yourself, don't you think {name}? You are in the {loc}.",
+        "Your current location is the {loc} {name}."
+    ],
+    "inform_name": {
+        "no_name": [
+            "Sorry, I didn't get your name right.",
+            "I'm afraid I didn't understand your name.",
+            "I feel like you are not telling me you real name."
+        ],
+        "changing_name": [
+            "Ok, I'll call you {name} from now on",
+            "Ah nice, so you changed your name to {name}",
+            "Yes whatever, I don't mind calling you {name}"
+        ],
+        "first_time": [
+            "It's good to play with you {name}.",
+            "Hey {name}, that's a good name for someone like you.",
+            "Nice to meet you {name}. Let's keep on playing."
+        ]
+    },
+    "thanking": [
+        "You're welcome {name}",
+        "Anytime, I'm here to help you {name}",
+        "Of course, keep on playing you are doing fine {name}"
+    ],
+    "greeting": {
+        "asking_name": [
+            "Hey there, what's your name?",
+            "Hi, how can I call you?",
+            "Hello, do you have a name?"
+        ],
+        "greeting": [
+            "Hello {name}, let's continue with the game.",
+            "I think we already know each other, let's continue playing {name}.",
+            "We've already introduce ourselves {name}, just in case you forgot"
+        ],
+        "pending": [
+            "I get it. You don't want to give me your name. That's fine.",
+            "Ok, no names for now then. What were you saying?",
+            "Yes, let's forget about names for now. Could you repeat what you just said?"
+        ]
+    },
+    "farewell": {
+        "ask_end_game": [
+            "What, you leaving already? Do you want to close the game like this?",
+            "Farewell my friend. Do we close the game then?",
+            "Goodbye? That's unfortunate. Do you want me to close the game?"
+        ],
+        "pending": [
+            "Fine, let's keep on playing. What were you saying?",
+            "Great, we still need you here. What's your next move then?",
+            "So you want to continue with the game. Could you repeat that?"
+        ]
+    },
+    "cancelling_action": [
+        "Ok, that's fine.",
+        "Sure, no problem.",
+        "Okay, let's continue playing then"
+    ],
+    "pending_fallback": [
+        "I don't see how that is related to anything that I've just said.",
+        "That doesn't have anything to do with what we were talking about.",
+        "That's completely unexpected."
+    ],
+    "fallback_response": [
+        "Sorry, I didn't get that.",
+        "I didn't understand what you said. Try something a bit different.",
+        "I'm afraid I have no response to that.",
+        "Are we still playing this game? That's something I was not expecting to hear.",
+        "You will have to rethink what you want to say."
+    ],
+    "gpt2_intros": [
+        "You are moving to the {location} now, stories tell that here",
+        "You just arrived at the {location}. This is a place where not many people dare to enter because",
+        "After passing some troubles, you finally make it to the {location}, a place full of",
+        "You go to the {location}, where something terrible happened. Historians say that",
+        "You are now in the {location}, be wary because you may find",
+        "This place where you are going, called {location}, might be dangerous. Be ready to deal with",
+        "You find yourself in {location}, a place that normal people tend to avoid because of the",
+        "You arrive at the {location}. You find yourself surrounded by mysterious",
+        "Moving to the {location} you discover that something is not okay with the",
+        "You are going to the {location}, when you arrive you notice signals of a"
+    ]
+}

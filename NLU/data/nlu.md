@@ -1,0 +1,1500 @@
+## intent:greet
+- hi
+- greetings
+- good night how are you
+- good morning how is it going
+- hi there morning how is it going
+- hi there morning how are you
+- hello how are you doing
+- morning
+- good night
+- hi there
+- hi good morning how is it going
+- hi there good day whats up
+- hey
+- hi there good afternoon how are you
+- good morning
+- hi there greetings how is it going
+- hello good afternoon whats up
+- hi good afternoon how are you doing
+- hi good night how is it going
+- hi greetings how are you doing
+- hi there good morning
+- hi there good night whats up
+- hey greetings whats up
+- hi there good day how are you
+- hi good night whats up
+- hello good afternoon how are you doing
+- hi good day how are you doing
+- greetings whats up
+- hello greetings whats up
+- hello greetings how is it going
+- morning how are you
+- hi there good afternoon how are you doing
+- hello
+- good day
+- hi morning
+- hey good night how is it going
+- hey good afternoon how is it going
+- good morning whats up
+- hello good morning how are you doing
+- hey greetings
+
+## intent:farewell
+- goodbye heading out
+- see you
+- good bye
+- farewell talk to you soon
+- i'm leaving good bye
+- bye
+- i'm leaving farewell
+- goodbye gotta go
+- see you have to go
+- have to go
+- got to go see you
+- goodbye got to go
+- gotta go good bye
+- leaving now see you
+- leaving now bye
+- have to go farewell
+- farewell leaving now
+- bye i'm leaving
+- goodbye
+- talk to you soon goodbye
+- goodbye talk to you later
+- talk to you soon see you
+- good bye got to go
+- see you got to go
+- goodbye talk to you soon
+- heading out good bye
+- goodbye i'm leaving
+- good bye have to go
+- i'm leaving
+- talk to you later goodbye
+- heading out goodbye
+- bye got to go
+- i'm leaving bye
+- farewell
+- gotta go farewell
+- leaving now farewell
+- leaving now goodbye
+- heading out bye
+- talk to you later
+- bye gotta go
+
+## intent:affirm
+- correct
+- yes sir good
+- correct good
+- of course
+- right please
+- yep please
+- yes of course
+- affirmative
+- im ok with that
+- yes
+- sounds good
+- definitely
+- sounds good cheers
+- i want that
+- affirmative please
+- im ok with that cheers
+- yes sir that is right
+- sounds good i want that
+- yep
+- affirmative that is what i want
+- right
+- definitely that is good
+- im ok with that please
+- agreed
+- yes sir please
+- yep that is right
+- yes sir its fine
+- correct that is what i want
+- yes please
+- affirmative that is perfect
+- of course cheers
+- agreed that is what i want
+- im ok with that that is good
+- sounds good please
+- affirmative that is right
+- affirmative i want that
+- yes sir
+- yes that is what i want
+- that is what i want
+- yes sir i want that
+- yes its fine
+- yes of course thanks
+- yep cheers
+- definitely that is what i want
+- yes that is good
+- yes that is fine
+- of course thank you
+- definitely appreciate it
+- im ok with that that is right
+- agreed that is right
+
+## intent:deny
+- negative appreciate it
+- no
+- incorrect
+- nope thank you
+- not really thank you
+- don't do that thanks
+- no way
+- not really
+- nope thanks
+- no thanks
+- negative that's not correct
+- negative
+- no cheers
+- not really please
+- incorrect please
+- incorrect thank you
+- nope
+- negative please
+- nope cheers
+- not really cheers
+- please nope that's not what i want
+- nope its not correct
+- don't do that
+- not really that is wrong
+- please nope that's not correct
+- negative thank you
+- don't do that it's not good
+- incorrect please it's not good
+- don't do that cheers
+- not really thanks
+- no please that's not correct
+- don't do that thank you
+- don't do that that's not what i want
+- incorrect didnt meant that
+- not really please that is wrong
+- no appreciate it
+- incorrect thanks
+- nope didnt meant that
+- negative its not ok
+- don't do that please its not correct
+- negative please that's wrong
+- not really that's not correct
+- don't do that appreciate it
+- please incorrect dont mean that
+- no way thanks
+- please incorrect that's wrong
+- please no way dont mean that
+- please don't do that its not correct
+- incorrect its not ok
+- negative it's not good
+
+## intent:thanking
+- thanks
+- thank you
+- cheers
+- appreciate it
+- thanks a lot
+- thank you a lot
+- cheers a lot
+- appreciate it a lot
+- thanks so much
+- thank you so much
+- cheers so much
+- appreciate it so much
+- thanks you are the best
+- thank you you are the best
+- cheers you are the best
+- appreciate it you are the best
+- thanks you saved my day
+- thank you you saved my day
+- cheers you saved my day
+- appreciate it you saved my day
+- thanks i owe you one
+- thank you i owe you one
+- cheers i owe you one
+- appreciate it i owe you one
+
+## intent:move_to
+- go to the [room two](location)
+- walk to [room one](location)
+- i'd like to go inside [bar](location)
+- go inside [room three](location)
+- access the [bedroom three](location)
+- access the [room one](location)
+- open [bedroom three](location)
+- i would like to open [room 3](location)
+- i will go to the [room two](location)
+- go to the [room 1](location)
+- access the [third room](location)
+- access the [bedroom 2](location)
+- i'll go inside [room one](location)
+- i would like to enter [third room](location)
+- i would like to enter [first room](location)
+- i will go to [second room](location)
+- i'll open the [bedroom 1](location)
+- i'd like to walk out the [bedroom 2](location)
+- access the [room two](location)
+- i'll move to the [bedroom three](location)
+- go inside the [room 2](location)
+- go inside [room 2](location)
+- i'll access the [first room](location)
+- go inside the [first room](location)
+- i'll go inside the [third room](location)
+- open [bedroom 3](location)
+- walk out the [bedroom 3](location)
+- please let's open the [room three](location)
+- please i'd like to move to [first door](location)
+- enter [second door](location)
+- move to [room three](location)
+- go to [bedroom one](location)
+- access the [bedroom two](location)
+- go inside [bedroom 1](location)
+- i would like to walk to [room 1](location)
+- i'd like to go to [hallway](location)
+- enter the [second room](location)
+- go inside the [third room](location)
+- please i'd like to walk out the [bedroom 2](location)
+- walk to [first door](location)
+- enter [inn](location)
+- i'd like to go to the [bedroom 1](location)
+- go inside the [second room](location)
+- go inside the [hallway](location)
+- i will move to the [hallway](location)
+- i would like to go to the [room three](location)
+- go inside [third door](location)
+- move to [first room](location)
+- let's open [alehouse](location)
+- go to the [corridor](location)
+- i'll enter [room 2](location)
+- i want to enter the [bar](location)
+- i want to open the [room 1](location)
+- walk out the [bedroom 2](location)
+- enter the [room two](location)
+- go to [backyard](location)
+- i'll go to [tavern](location)
+- i will open the [bedroom three](location)
+- i will move to the [first door](location)
+- i'd like to go to [second room](location)
+- i want to go to the [inn](location)
+- i will enter the [bar](location)
+- i would like to enter the [room 3](location)
+- access the [first door](location)
+- go inside the [bedroom 3](location)
+- i want to enter the [bedroom 1](location)
+- i will go to the [corridor](location)
+- go inside [bedroom 3](location)
+- i want to access the [room 2](location)
+- i would like to go to [inn](location)
+- i want to go inside [bedroom two](location)
+- open the [bedroom 1](location)
+- open the [alehouse](location)
+- let's enter the [hallway](location)
+- let's walk out the [bedroom three](location)
+- go to the [inn](location)
+- i would like to move to [first door](location)
+- i will open [bedroom 2](location)
+- i'd like to move to the [room one](location)
+- go inside [bar](location)
+- i would like to move to [third door](location)
+- i'll go to [bedroom 2](location)
+- i will go inside the [room 3](location)
+- i will go to [first door](location)
+- walk to [alehouse](location)
+- i'd like to go to [bedroom 1](location)
+- open [alehouse](location)
+- move to the [room three](location)
+- i will walk out the [pub](location)
+- move to the [backyard](location)
+- walk out the [room three](location)
+- let's enter the [third door](location)
+- go to the [room one](location)
+- i'd like to enter the [alehouse](location)
+- i want to go inside the [hallway](location)
+- i will open [room two](location)
+- go inside the [pub](location)
+- move to [bedroom 3](location)
+- i'll access the [bedroom one](location)
+- go inside [inn](location)
+- access the [tavern](location)
+- i would like to go to the [bedroom 2](location)
+- go to [room one](location)
+- walk out the [inn](location)
+- i'll go inside [first door](location)
+- i would like to go to the [inn](location)
+- i'd like to enter [bedroom three](location)
+- please i will enter [tavern](location)
+- access the [backyard](location)
+- go to the [second door](location)
+- i would like to go inside the [alehouse](location)
+- walk out the [alehouse](location)
+- walk to [hostel](location)
+- let's move to [bar](location)
+- i want to enter the [corridor](location)
+- enter the [room three](location)
+- walk to [inn](location)
+- let's go inside [bedroom three](location)
+- let's go inside the [alehouse](location)
+- i'll open [bar](location)
+- enter the [room 3](location)
+- i will move to [third room](location)
+- open [hostel](location)
+- let's open [bedroom one](location)
+- i'll move to [alehouse](location)
+- i want to walk out the [pub](location)
+- go to [room three](location)
+- go to [first door](location)
+- move to [corridor](location)
+- i would like to enter [alehouse](location)
+- access the [second door](location)
+- open the [hostel](location)
+- i'd like to go to the [first room](location)
+- i will access the [room two](location)
+- let's go inside the [bar](location)
+- i'd like to walk out the [third door](location)
+- i will move to [room one](location)
+- enter [alehouse](location)
+- i will open the [room one](location)
+- open [bedroom 2](location)
+- i'd like to access the [alehouse](location)
+- i would like to open [bedroom 3](location)
+- go inside the [bedroom one](location)
+- go inside the [tavern](location)
+- i'd like to walk out the [room 2](location)
+- let's walk out the [first door](location)
+- please i will walk out the [first door](location)
+- i will move to [bedroom 2](location)
+- i want to open the [alehouse](location)
+- go inside the [room one](location)
+
+## intent:pick_up_object
+- i will catch the [blade](object) and also the [sword](object)
+- grab the [armour](object)
+- collect the [sword](object)
+- i'd like to pick up the [shield](object) and also the [key](object)
+- i will catch the [dagger](object) and the [dagger](object)
+- pick the [hammer](object)
+- take the [dagger](object)
+- pick up the [blade](object)
+- i will pick up the [shield](object) and also the [key](object)
+- pick the [key](object)
+- grab the [hammer](object)
+- take the [sword](object)
+- i want to collect the [blade](object) and the [dagger](object)
+- i want to grab the [hammer](object) and [knife](object)
+- pick the [sword](object)
+- take the [shield](object)
+- let's grab the [key](object) and also the [hammer](object)
+- i will take the [dagger](object) and the [blade](object)
+- pick up the [sword](object)
+- take the [key](object)
+- grab the [knife](object)
+- pick the [knife](object)
+- pick the [key](object) and also the [armour](object)
+- grab the [sword](object)
+- pick the [armour](object)
+- i'll pick the [knife](object) and also the [blade](object)
+- collect the [knife](object)
+- i want to take the [sword](object) and also the [hammer](object)
+- i'll grab the [dagger](object) and [armour](object)
+- i want to catch the [armour](object) and the [sword](object)
+- take the [knife](object) and [sword](object)
+- i'll catch the [key](object) and also the [knife](object)
+- catch the [blade](object)
+- let's pick up the [key](object) and also the [hammer](object)
+- catch the [knife](object) and also the [shield](object)
+- collect the [shield](object)
+- i would like to pick up the [sword](object) and also the [dagger](object)
+- grab the [dagger](object)
+- i will catch the [armour](object) and the [armour](object)
+- let's pick up the [knife](object)
+- i want to pick the [hammer](object) and also the [armour](object)
+- grab the [hammer](object) and [dagger](object)
+- i would like to catch the [key](object) and [shield](object)
+- pick up the [armour](object)
+- i want to pick the [dagger](object) and also the [knife](object)
+- catch the [dagger](object)
+- catch the [knife](object)
+- take the [blade](object) and the [hammer](object)
+- take the [armour](object)
+- catch the [armour](object)
+- let's grab the [shield](object) and [blade](object)
+- pick up the [blade](object) and [sword](object)
+- collect the [key](object) and the [dagger](object)
+- pick the [sword](object) and the [hammer](object)
+- i would like to catch the [armour](object)
+- collect the [shield](object) and also the [key](object)
+- pick up the [hammer](object)
+- i would like to grab the [shield](object)
+- i'll collect the [shield](object) and the [key](object)
+- collect the [armour](object) and the [hammer](object)
+- i'd like to collect the [dagger](object) and [dagger](object)
+- collect the [blade](object) and the [armour](object)
+- i would like to grab the [blade](object) and also the [hammer](object)
+- collect the [armour](object)
+- catch the [shield](object)
+- i want to pick up the [dagger](object) and [armour](object)
+- i will grab the [sword](object) and the [key](object)
+- i would like to collect the [key](object) and the [knife](object)
+- i'll collect the [blade](object) and also the [blade](object)
+- i'd like to pick the [hammer](object) and the [armour](object)
+- i want to grab the [armour](object) and also the [knife](object)
+- catch the [key](object)
+- i'd like to catch the [armour](object) and [hammer](object)
+- take the [hammer](object)
+- pick the [blade](object) and [knife](object)
+- i would like to catch the [knife](object) and [hammer](object)
+- i want to collect the [dagger](object) and also the [hammer](object)
+- i would like to pick up the [key](object) and the [armour](object)
+- pick the [shield](object)
+- let's pick the [sword](object) and the [hammer](object)
+- pick the [armour](object) and [key](object)
+- i would like to grab the [hammer](object) and also the [shield](object)
+- i'll take the [knife](object) and [hammer](object)
+- grab the [shield](object)
+- i'll pick up the [key](object) and [knife](object)
+- catch the [key](object) and the [knife](object)
+- let's take the [sword](object) and [armour](object)
+- i want to take the [knife](object) and the [sword](object)
+- i want to pick the [dagger](object) and also the [armour](object)
+- grab the [blade](object)
+- i want to take the [hammer](object) and the [blade](object)
+- pick up the [shield](object)
+- collect the [blade](object)
+- pick up the [key](object)
+- take the [knife](object)
+- let's collect the [dagger](object) and the [blade](object)
+- i will collect the [hammer](object) and the [blade](object)
+- i'd like to pick the [knife](object) and also the [hammer](object)
+- catch the [sword](object)
+- let's pick the [knife](object) and also the [sword](object)
+
+## intent:attack
+- fight the [beast](npc)
+- i'd like to kill the [bartender](npc) with my [sword](object)
+- i want to assault the [barman](npc)
+- i'd like to finish the [villager](npc) with the [blade](object)
+- i'll kill that [beast](npc) using the [dagger](object)
+- i will finish the [beast](npc) with the [blade](object)
+- i would like to assault the [orc](npc) with a [hammer](object)
+- let's fight with the [goblin](npc)
+- i'll destroy the [barman](npc)
+- finish the [troll](npc)
+- i'd like to attack the [person](npc) using the [hammer](object)
+- i want to rip off the head of the [enemy](npc) making use of the [knife](object)
+- using a [blade](object) attack the [troll](npc)
+- hit the [creature](npc)
+- attack to the [villager](npc)
+- fight with the [animal](npc) making use of a [sword](object)
+- smash the [goblin](npc)
+- i will assault the [person](npc) making use of a [hammer](object)
+- i want to attack that [barman](npc) with a [sword](object)
+- i would like to smash the [goblin](npc) making use of a [sword](object)
+- attack the [beast](npc)
+- hit the [person](npc) using a [dagger](object)
+- hit the [enemy](npc)
+- i will finish the [creature](npc) with my [sword](object)
+- let's attack that [bartender](npc)
+- i'll finish that [monster](npc)
+- attack to the [enemy](npc)
+- i'll fight the [animal](npc) using a [blade](object)
+- i'd like to attack to the [villager](npc) using the [blade](object)
+- i'd like to kill that [monster](npc) using a [sword](object)
+- kill the [monster](npc)
+- i'll destroy the [enemy](npc)
+- i'd like to finish that [barman](npc)
+- attack the [barman](npc)
+- kill that [goblin](npc)
+- i would like to attack that [barman](npc)
+- let's destroy the [animal](npc) using my [dagger](object)
+- fight the [barman](npc)
+- attack to the [creature](npc)
+- assault the [barman](npc)
+- i'll attack the [troll](npc) using my [sword](object)
+- assault the [villager](npc)
+- i'd like to finish that [beast](npc) using a [dagger](object)
+- i'd like to hit the [bartender](npc)
+- i want to kill the [bartender](npc) making use of a [hammer](object)
+- fight the [villager](npc) with the [blade](object)
+- i want to fight the [animal](npc) making use of a [knife](object)
+- let's fight with the [monster](npc)
+- attack that [animal](npc)
+- i'd like to hit the [bartender](npc) making use of a [hammer](object)
+- kill that [enemy](npc)
+- fight the [demon](npc)
+- fight with the [orc](npc)
+- i will smash the [animal](npc)
+- i will attack to the [animal](npc) making use of the [sword](object)
+- i would like to fight with the [animal](npc)
+- i will fight the [barman](npc) making use of the [blade](object)
+- attack that [bartender](npc)
+- destroy the [monster](npc)
+- finish the [goblin](npc) making use of the [hammer](object)
+- fight with the [bartender](npc)
+- making use of the [sword](object) assault the [troll](npc)
+- i want to destroy the [person](npc) using the [knife](object)
+- assault the [person](npc)
+- assault the [monster](npc)
+- i'll finish the [enemy](npc) with the [hammer](object)
+- i want to finish the [animal](npc) using my [sword](object)
+- i will assault the [animal](npc)
+- kill the [troll](npc)
+- i would like to finish that [demon](npc)
+- i would like to assault the [creature](npc)
+- i'll finish the [creature](npc) making use of a [hammer](object)
+- let's assault the [beast](npc)
+- i would like to fight the [goblin](npc)
+- i'd like to rip off the head of the [bartender](npc)
+- i would like to attack to the [bartender](npc)
+- i would like to fight the [enemy](npc)
+- let's attack to the [enemy](npc)
+- i'll rip off the head of the [orc](npc)
+- smash the [beast](npc)
+- i'll assault the [beast](npc)
+- i want to destroy the [beast](npc) making use of a [knife](object)
+- finish the [beast](npc)
+- assault the [orc](npc)
+- i'll attack to the [animal](npc)
+- attack that [person](npc)
+- hit the [villager](npc)
+- kill that [monster](npc) using the [blade](object)
+- attack to the [troll](npc)
+- i'll kill the [orc](npc) making use of a [dagger](object)
+- i'll hit the [animal](npc)
+- i will fight the [villager](npc) with the [blade](object)
+- kill that [orc](npc)
+- making use of a [blade](object) fight with the [troll](npc)
+- i want to attack to the [barman](npc)
+- i'd like to attack that [enemy](npc)
+- kill that [barman](npc)
+- smash the [demon](npc)
+- i want to hit the [troll](npc) with a [blade](object)
+- i'd like to assault the [demon](npc)
+- i would like to finish the [bartender](npc)
+- kill the [monster](npc) with the [sword](object)
+- i'll fight the [beast](npc)
+- i'll smash the [demon](npc) with a [blade](object)
+- assault the [enemy](npc)
+- i would like to assault the [demon](npc) making use of a [blade](object)
+- smash the [enemy](npc) using the [hammer](object)
+- rip off the head of the [monster](npc)
+- i want to attack that [animal](npc)
+- rip off the head of the [animal](npc)
+- kill the [orc](npc)
+- kill the [barman](npc)
+- i will fight the [orc](npc)
+- i'd like to destroy the [person](npc) making use of the [hammer](object)
+- i would like to finish the [villager](npc)
+- i would like to finish the [demon](npc)
+- i'd like to attack to the [barman](npc) with a [sword](object)
+- fight with the [creature](npc)
+- i'd like to attack that [beast](npc) making use of a [hammer](object)
+- assault the [troll](npc)
+- i'd like to fight the [orc](npc) with my [hammer](object)
+- i will finish the [bartender](npc) with the [blade](object)
+- i'd like to attack to the [animal](npc)
+- let's attack to the [beast](npc) using the [hammer](object)
+- i would like to destroy the [troll](npc) using the [blade](object)
+- i'd like to hit the [troll](npc)
+- fight the [monster](npc)
+- hit the [demon](npc)
+- fight with the [beast](npc)
+- attack the [troll](npc)
+- i would like to attack the [monster](npc)
+- i want to fight with the [villager](npc) making use of the [dagger](object)
+- i'd like to kill that [creature](npc) using the [knife](object)
+- i would like to fight the [monster](npc) making use of the [dagger](object)
+- attack the [demon](npc)
+- let's kill that [enemy](npc) using my [dagger](object)
+- i'll finish that [beast](npc) with the [dagger](object)
+- hit the [bartender](npc)
+- kill the [creature](npc) making use of a [dagger](object)
+- attack to the [demon](npc)
+- i would like to kill that [troll](npc)
+- i'd like to rip off the head of the [villager](npc)
+- kill the [creature](npc) with my [blade](object)
+- finish that [orc](npc)
+- using a [hammer](object) fight the [person](npc)
+- i will fight with the [enemy](npc)
+- i'll attack to the [beast](npc)
+- i want to smash the [enemy](npc) making use of the [blade](object)
+- i'll smash the [creature](npc)
+- let's attack to the [animal](npc)
+
+## intent:talk_to_npc
+- let's have a conversation with [barkeeper](npc)
+- i would like to speak to the [host](npc)
+- try to communicate with the [fellow](npc)
+- please have some words with [fellow](npc)
+- talk to [gentleman](npc)
+- have a conversation with [barman](npc)
+- talk with the [dude](npc)
+- i would like to have some words with [bartender](npc)
+- chat with the [barkeeper](npc)
+- speak to the [individual](npc)
+- i want to speak to the [villager](npc)
+- talk with the [person](npc)
+- talk with the [bartender](npc)
+- i would like to speak with the [guy](npc)
+- please talk to the [individual](npc)
+- try to communicate with the [barman](npc)
+- i'd like to talk to the [gentleman](npc)
+- speak to the [person](npc)
+- i'll speak with the [dude](npc)
+- chat with the [soldier](npc)
+- talk to the [soldier](npc)
+- talk to [soldier](npc)
+- have some words with [owner](npc)
+- have some words with [host](npc)
+- please speak to the [host](npc)
+- have a conversation with [fellow](npc)
+- talk to [owner](npc)
+- i'd like to talk to [person](npc)
+- chat with the [fellow](npc)
+- i'd like to chat with the [host](npc)
+- i would like to try to communicate with the [soldier](npc)
+- please talk with the [host](npc)
+- i would like to talk to the [villager](npc)
+- please talk to the [person](npc)
+- let's chat with the [innkeeper](npc)
+- chat with the [owner](npc)
+- i'll converse with the [fellow](npc)
+- i'd like to talk with the [dude](npc)
+- talk with the [villager](npc)
+- let's try to communicate with the [barkeeper](npc)
+- i want to chat with the [barman](npc)
+- please talk to the [fellow](npc)
+- try to communicate with the [bartender](npc)
+- i want to speak with the [barkeeper](npc)
+- i'd like to talk with the [host](npc)
+- have some words with [barman](npc)
+- let's try to communicate with the [villager](npc)
+- i want to converse with the [dude](npc)
+- speak with the [barkeeper](npc)
+- i'll speak to the [bartender](npc)
+- have a conversation with [dude](npc)
+- let's speak with the [individual](npc)
+- i would like to have a conversation with [barman](npc)
+- try to communicate with the [innkeeper](npc)
+- converse with the [individual](npc)
+- i will have a conversation with [innkeeper](npc)
+- have a conversation with [man](npc)
+- let's have some words with [innkeeper](npc)
+- converse with the [soldier](npc)
+- chat with the [innkeeper](npc)
+- i would like to try to communicate with the [villager](npc)
+- i would like to speak with the [fellow](npc)
+- have a conversation with [innkeeper](npc)
+- have some words with [man](npc)
+- converse with the [owner](npc)
+- i'd like to speak with the [innkeeper](npc)
+- i'll talk to the [barkeeper](npc)
+- speak to the [barman](npc)
+- speak to the [guy](npc)
+- talk to the [bartender](npc)
+- let's talk to [innkeeper](npc)
+- i'll talk with the [soldier](npc)
+- talk to [host](npc)
+- i'll try to communicate with the [host](npc)
+- i'll talk with the [bartender](npc)
+- let's have a conversation with [gentleman](npc)
+- let's talk to the [soldier](npc)
+- chat with the [host](npc)
+- talk to [dude](npc)
+- have a conversation with [barkeeper](npc)
+- i'd like to talk to the [host](npc)
+- chat with the [dude](npc)
+- i'd like to talk with the [person](npc)
+- please try to communicate with the [soldier](npc)
+- i'll converse with the [bartender](npc)
+- speak to the [villager](npc)
+- i will chat with the [villager](npc)
+- i will try to communicate with the [host](npc)
+- i would like to speak to the [dude](npc)
+- have some words with [barkeeper](npc)
+- i will have some words with [individual](npc)
+- i will have a conversation with [dude](npc)
+- converse with the [fellow](npc)
+- i'll talk to the [owner](npc)
+- i'd like to chat with the [innkeeper](npc)
+- speak to the [bartender](npc)
+- let's try to communicate with the [innkeeper](npc)
+- converse with the [villager](npc)
+- talk with the [soldier](npc)
+- converse with the [innkeeper](npc)
+
+## intent:inform_name
+- they call me [birthe](name)
+- i am called [jb](name)
+- people know me as [marco](name)
+- i am [birthe](name)
+- they call me [jean baptiste](name)
+- people call me [cesar](name)
+- people know me as [seb](name)
+- people call me [lucien](name)
+- i'm [birthe](name)
+- call me [noe](name)
+- they know me as [marco](name)
+- i am called [lucien](name)
+- i am called [dorian](name)
+- they know me as [dorian](name)
+- i am called [birthe](name)
+- i'm [dorian](name)
+- people call me [birthe](name)
+- people call me [marco](name)
+- i'm known as [lucien](name)
+- i am [lucien](name)
+- call me [cesar](name)
+- they know me as [toby](name)
+- my name is [toby](name)
+- they call me [toby](name)
+- they call me [dorian](name)
+- i'm known as [cesar](name)
+- people know me as [dorian](name)
+- people know me as [lucien](name)
+- i'm known as [jean baptiste](name)
+- i'm called [cesar](name)
+- i am [cesar](name)
+- i'm [noe](name)
+- i'm [sebastian](name)
+- people know me as [sebastian](name)
+- i'm [jb](name)
+- i'm known as [birthe](name)
+- they call me [seb](name)
+- they know me as [noe](name)
+- i am called [seb](name)
+- i am called [cesar](name)
+- i am called [jean baptiste](name)
+- they call me [marco](name)
+- call me [toby](name)
+- i am [noe](name)
+- call me [marco](name)
+- people call me [seb](name)
+- people call me [toby](name)
+- i'm [toby](name)
+- people call me [jb](name)
+- my name is [birthe](name)
+- i am [toby](name)
+- i am [seb](name)
+- they know me as [jean baptiste](name)
+- call me [seb](name)
+- people call me [sebastian](name)
+- i am called [toby](name)
+- i'm [cesar](name)
+- people know me as [jb](name)
+- i'm known as [toby](name)
+- they call me [jb](name)
+- call me [jean baptiste](name)
+- people know me as [jean baptiste](name)
+- call me [sebastian](name)
+- i'm called [noe](name)
+- i'm called [jean baptiste](name)
+- i am [jb](name)
+- i'm known as [marco](name)
+- people call me [noe](name)
+- they know me as [seb](name)
+- i am [sebastian](name)
+- i'm [lucien](name)
+- i'm known as [dorian](name)
+- i'm called [seb](name)
+- my name is [lucien](name)
+- they know me as [cesar](name)
+- i'm known as [noe](name)
+- i am called [sebastian](name)
+- they call me [cesar](name)
+- i'm known as [sebastian](name)
+- i am called [marco](name)
+- my name is [marco](name)
+- i'm called [birthe](name)
+- i'm known as [seb](name)
+- i'm called [marco](name)
+- they call me [noe](name)
+- my name is [dorian](name)
+- my name is [seb](name)
+- people know me as [birthe](name)
+- they know me as [birthe](name)
+- call me [birthe](name)
+- i'm [seb](name)
+- i'm called [toby](name)
+- i'm [jean baptiste](name)
+- they know me as [lucien](name)
+- i am called [noe](name)
+- call me [lucien](name)
+- i'm [marco](name)
+- my name is [cesar](name)
+- they know me as [sebastian](name)
+- i'm called [jb](name)
+
+## intent:explore
+- investigate this place
+- examine this location
+- examine the place where we are
+- where can i go
+- what objects can i pick up
+- what can i see
+- describe me the place where we are
+- what things can i take
+- tell me the options i have
+- what objects can i pick up in the place where we are
+- what objects do i see
+- what things can i take from this location
+- investigate the place where we are
+- i would like to explore this place
+- what are the alternatives in this place
+- let me know what alternatives do i have
+- is there any object i can take
+- i'll explore this location
+- i would like to examine this place
+- i would like to explore the place where we are
+- tell me the options i have in this location
+- what objects are there in this location
+- what options do i have from this place
+- i don't know what to do
+- inspect this place
+- explore this place
+- investigate this location
+- i'll examine this location
+- what are my options
+- what options do i have in this place
+- what places can i visit in this place
+- what are the alternatives in the place where we are
+- is there anything i can take
+- inspect this location
+- what objects are there
+- explore the place where we are
+- i'll examine this place
+- what can i see from this place
+- examine this place
+- what can i see from this location
+- let me know what alternatives do i have in this place
+- i will explore this location
+- what are the alternatives
+- is there any object i can take from this location
+- what places can i visit
+- i will inspect this location
+- what options do i have
+- explore this location
+- what objects are there in the place where we are
+- what can you see in this place
+- what can you see from the place where we are
+- what objects do i see from this location
+- what can you see from this place
+- what are the alternatives from the place where we are
+- i want to investigate the place where we are
+- let's inspect this place
+- what places can i visit from this location
+- is there anything i can pick up
+- tell me the options i have in the place where we are
+- i don't know what to do in this location
+- i'll inspect the place where we are
+- i want to inspect the place where we are
+- i want to inspect this location
+- let's explore the place where we are
+- i'd like to investigate the place where we are
+- is there anything i can take from the place where we are
+- let's examine this place
+- show me this location
+- i want to explore this location
+- i'd like to inspect this place
+- i would like to examine this location
+- what things can i take from the place where we are
+- what options do i have from this location
+- i'd like to examine the place where we are
+- where can i go from this place
+- what can i see in this place
+- what can i do
+- inspect the place where we are
+- what can you see
+- i would like to investigate the place where we are
+- show me this place
+- what objects can i pick up from this location
+- what objects do i see from the place where we are
+- i'd like to explore the place where we are
+- let me know what alternatives do i have from the place where we are
+- is there anything i can pick up from this location
+- is there anything i can pick up in this location
+- describe this place
+- what can i see in this location
+- what things can i take in the place where we are
+- i want to investigate this location
+- is there anything i can take in the place where we are
+- i want to explore the place where we are
+- i don't know what to do from this location
+- what can i see from the place where we are
+- is there any object i can take in this place
+- i want to investigate this place
+- i want to examine this place
+- what are my options from this location
+- what can i see in the place where we are
+- is there anything i can take from this place
+- i'll investigate this place
+- i'll inspect this location
+- let me know what alternatives do i have in the place where we are
+- where can i go from this location
+- let me know what alternatives do i have from this place
+- let's explore this location
+- i'll examine the place where we are
+- i want to explore this place
+- is there any object i can take from the place where we are
+- describe the place where we are
+- what objects do i see in the place where we are
+- what objects are there in this place
+- what things can i take from this place
+- what can i do in the place where we are
+- what objects can i pick up in this place
+- what are my options from the place where we are
+- let's inspect the place where we are
+- let's examine the place where we are
+- i'll investigate the place where we are
+- is there any object i can take in this location
+- what are my options in this location
+- what objects do i see in this place
+- i'd like to examine this location
+- what objects are there from this location
+- let's examine this location
+- is there anything i can pick up from the place where we are
+- what are the alternatives in this location
+- what objects do i see from this place
+- is there anything i can pick up from this place
+- i'd like to explore this place
+- i would like to explore this location
+- what are the alternatives from this location
+- is there anything i can take in this place
+- i want to examine this location
+- is there any object i can take in the place where we are
+- let's inspect this location
+- is there anything i can pick up in the place where we are
+- what can i do in this location
+- i'd like to explore this location
+- i will examine the place where we are
+- what can i do from this place
+- let's investigate this place
+- what options do i have in the place where we are
+- what objects are there from this place
+- is there anything i can take in this location
+- is there any object i can take from this place
+- let's explore this place
+- what are the alternatives from this place
+- what are my options in this place
+
+## intent:get_position_info
+- remind me what is my location
+- i forgot what is this place
+- i want to know what's this place
+- i forgot what is my position
+- i would like to know what's my position
+- i forgot what is my location
+- i would like to know what is this place
+- remind me what's my location
+- i would like to know what is my position
+- i don't know what is my position
+- i don't remember where i am
+- what's my position
+- tell me what's my location
+- i want to know what is my position
+- remind me what's this place
+- tell me what is this place
+- i don't know where i am
+- let me know what is my location
+- what is my location
+- remind me what is my position
+- i want to know what is this place
+- tell me what is my location
+- remind me what is this place
+- i don't remember what's my position
+- let me know what is this place
+- can you tell me what is this place
+- where am i
+- what is my position
+- remind me what's my position
+- i would like to know what's my location
+- can you tell me where i am
+- tell me what's this place
+- i don't know what's this place
+- i would like to know what is my location
+- let me know what is my position
+- can you tell me what is my location
+- remind me where i am
+- tell me where i am
+- can you tell me what is my position
+- i want to know what's my position
+- i want to know where i am
+- i don't know what is my location
+- i don't know what's my position
+- let me know what's my location
+- i don't remember what's this place
+- what is this place
+- can you tell me what's my position
+- i would like to know what's this place
+- i'm lost
+- tell me what is my position
+- i would like to know where i am
+- i don't remember what is this place
+- i want to know what's my location
+- i forgot where i am
+- let me know where i am
+- what's this place
+- i don't know what's my location
+- i am lost
+- i forgot what's this place
+- i don't remember what is my position
+- let me know what's my position
+- i don't remember what's my location
+- i forgot what's my location
+- i want to know what is my location
+- let me know what's this place
+- can you tell me what's this place
+- i don't remember what is my location
+- i don't know what is this place
+- i forgot what's my position
+- tell me what's my position
+- can you tell me what's my location
+- what's my location
+
+## intent:get_inventory_info
+- i forgot what i am carrying
+- i don't remember the objects i am carrying in my inventory
+- what is in my inventory
+- i would like to know the objects i am carrying
+- tell me the objects i am carrying in my bag
+- i don't remember the objects i have in my bag
+- i forgot what i am carrying in my inventory
+- what am i carrying in my sack
+- let me know the objects i am carrying
+- what do i carry in my inventory
+- list what i have got
+- what's in my sack
+- what's in my bag
+- i want to know what i have in my bag
+- i forgot what i am carrying in my catalog
+- list what i am carrying in my catalog
+- tell me the objects i have in my bag
+- tell me what i have got in my inventory
+- i want to know the things i have in my sack
+- i forgot the things i have in my sack
+- what am i carrying in my bag
+- i want to know what i have in my inventory
+- i don't know the things i have in my catalog
+- let me know what i have
+- let me know the things i am carrying
+- i would like to know the things i have
+- can you tell what i am carrying in my bag
+- remind me the objects i am carrying in my inventory
+- i want to know what i have in my sack
+- what have i got in my inventory
+- what do i have in my catalog
+- can you tell what i am carrying in my inventory
+- what's in my inventory
+- tell me what i am carrying
+- i don't remember the objects i have in my inventory
+- what do i carry in my bag
+- tell me the things i have in my catalog
+- i want to know what i'm carrying in my sack
+- what is in my catalog
+- what am i wearing
+- what do i wear
+- tell me the things i am carrying in my bag
+- i forgot what i have got in my inventory
+- i would like to know the objects i have in my inventory
+- tell me what i have in my bag
+- what is in my sack
+- i don't remember what i am carrying in my catalog
+- i don't know what i have in my bag
+- list the things i am carrying in my catalog
+- i don't know what i have in my catalog
+- i don't know what i have in my sack
+- i don't remember what i'm carrying in my bag
+- i want to know what i have got in my bag
+- tell me what i am carrying in my bag
+- remind me what i have got in my sack
+- can you tell the objects i am carrying in my inventory
+- let me know what i'm carrying in my bag
+- what is in my bag
+- tell me what i have in my catalog
+- i don't remember what i have
+- let me know what i have in my sack
+- i don't remember the things i am carrying in my catalog
+- what have i got in my sack
+- can you tell the things i am carrying
+- what am i carrying in my inventory
+- can you tell what i have in my catalog
+- list what i have got in my bag
+- i want to know the objects i am carrying
+- remind me what i have got in my bag
+- let me know the objects i am carrying in my catalog
+- can you tell what i have got in my bag
+- remind me what i have in my sack
+- i would like to know what i'm carrying in my catalog
+- i want to know the things i am carrying in my bag
+- can you tell what i'm carrying in my sack
+- i forgot the objects i have in my catalog
+- i want to know the objects i have in my bag
+- what do i have in my inventory
+- i want to know what i'm carrying in my inventory
+- i would like to know the things i am carrying in my bag
+- i don't remember what i have got in my catalog
+- i want to know the objects i am carrying in my bag
+- i forgot the things i have in my bag
+- i forgot what i am carrying in my sack
+- what do i have in my sack
+- tell me the objects i am carrying in my inventory
+- i would like to know what i am carrying in my sack
+- let me know what i am carrying in my catalog
+- list what i am carrying in my bag
+- i don't remember what i am carrying in my sack
+- i forgot the objects i have in my bag
+- what do i carry in my sack
+- can you tell the objects i have in my sack
+- list what i have in my bag
+- what am i carrying in my catalog
+- can you tell the objects i am carrying in my catalog
+- i would like to know what i am carrying in my bag
+- i want to know the objects i have in my sack
+- what's in my catalog
+- list the things i am carrying
+- i want to know the things i have in my catalog
+
+## intent:get_player_info
+- i forgot how much life i have left
+- i don't know how many points i have left
+- i don't know my life status
+- i want to know my damage
+- i don't know the damage i have
+- i want to know the damage i have
+- i forgot the health i have
+- can you tell my life status
+- tell me how many points i have left
+- tell me the health i have
+- i don't know my health points
+- let me know the health i have
+- tell me how much life i have left
+- i want to know my health status
+- remind me my damage
+- remind me my health status
+- i don't remember the points i have
+- i don't remember how much life i have left
+- let me know my life points
+- i forgot my damage
+- i don't know the health i have
+- i don't know my health status
+- i want to know my life points
+- i would like to know my health
+- tell me my damage
+- remind me my life points
+- let me know how many points i have left
+- i don't remember my health
+- i don't remember my health points
+- i would like to know my health points
+- i don't know my health
+- i want to know how many points i have left
+- let me know my health
+- i don't know the points i have
+- tell me my health status
+- can you tell how much life i have left
+- tell me the points i have
+- i forgot my health status
+- tell me my hp
+- can you tell how many points i have
+- i would like to know how many points i have
+- i would like to know my life status
+- remind me how many points i have left
+- i want to know my life status
+- i don't know my hp
+- remind me my life status
+- can you tell my damage
+- i don't remember my life points
+- i forgot my health points
+- i would like to know how many points i have left
+- i forgot my life points
+- i forgot my life status
+- i would like to know my hp
+- i don't know my damage
+- remind me my health points
+- let me know my damage
+- i forgot my hp
+- can you tell how many points i have left
+- can you tell the damage i have
+- remind me the damage i have
+- i don't remember the health i have
+- i forgot my health
+- let me know how much life i have left
+- i don't remember how many points i have left
+- tell me the damage i have
+- i want to know my health points
+- i want to know my health
+- i don't know how many points i have
+- remind me my health
+- tell me my life points
+- can you tell my health points
+- i would like to know my damage
+- i don't remember how many points i have
+- i don't remember my damage
+- i don't know my life points
+- remind me the health i have
+- let me know my health status
+- let me know my hp
+- i forgot how many points i have
+- i want to know the health i have
+- can you tell the health i have
+- i forgot the damage i have
+- i want to know the points i have
+- i want to know how much life i have left
+- i want to know how many points i have
+- tell me how many points i have
+- remind me how many points i have
+- i would like to know how much life i have left
+- remind me my hp
+- i don't remember my hp
+- let me know my health points
+- can you tell my life points
+- remind me the points i have
+- i don't remember my health status
+- i don't know how much life i have left
+- let me know how many points i have
+- i forgot how many points i have left
+- can you tell my health status
+- i don't remember the damage i have
+- tell me my health points
+
+## intent:buy_drink
+- let me buy you a drink
+- i will buy you a drink
+- i am going to buy you a drink
+- i want to buy you a drink
+- i would like to buy you a drink
+- let me invite you a drink
+- i will invite you a drink
+- i am going to invite you a drink
+- i want to invite you a drink
+- i would like to invite you a drink
+- let me invite you to the next drink
+- i will invite you to the next drink
+- i am going to invite you to the next drink
+- i want to invite you to the next drink
+- i would like to invite you to the next drink
+- let me pay the next drink
+- i will pay the next drink
+- i am going to pay the next drink
+- i want to pay the next drink
+- i would like to pay the next drink
+- let me pay your next drink
+- i will pay your next drink
+- i am going to pay your next drink
+- i want to pay your next drink
+- i would like to pay your next drink
+- let me buy you a beer
+- i will buy you a beer
+- i am going to buy you a beer
+- i want to buy you a beer
+- i would like to buy you a beer
+- let me invite you a beer
+- i will invite you a beer
+- i am going to invite you a beer
+- i want to invite you a beer
+- i would like to invite you a beer
+- let me invite you to the next beer
+- i will invite you to the next beer
+- i am going to invite you to the next beer
+- i want to invite you to the next beer
+- i would like to invite you to the next beer
+- let me pay the next beer
+- i will pay the next beer
+- i am going to pay the next beer
+- i want to pay the next beer
+- i would like to pay the next beer
+- let me pay your next beer
+- i will pay your next beer
+- i am going to pay your next beer
+- i want to pay your next beer
+- i would like to pay your next beer
+- let me buy you a round
+- i will buy you a round
+- i am going to buy you a round
+- i want to buy you a round
+- i would like to buy you a round
+- let me invite you a round
+- i will invite you a round
+- i am going to invite you a round
+- i want to invite you a round
+- i would like to invite you a round
+- let me invite you to the next round
+- i will invite you to the next round
+- i am going to invite you to the next round
+- i want to invite you to the next round
+- i would like to invite you to the next round
+- let me pay the next round
+- i will pay the next round
+- i am going to pay the next round
+- i want to pay the next round
+- i would like to pay the next round
+- let me pay your next round
+- i will pay your next round
+- i am going to pay your next round
+- i want to pay your next round
+- i would like to pay your next round
+- let's have some beers together
+- next round goes on me
+- i want to drink some beer with you
+- let's get drunk together
+- let's drink together
+- another beer for you then
+- barman, serve this man another drink
+- let's drink
+
+## intent:ask_info
+- can you tell me what is happening in this place
+- i would like to know this monster
+- i'll help you with this monster
+- give me information about what is happening here
+- i want to offer my help with the monster in bedroom
+- give more details of what is happening in this town
+- i want to have more details about what is going on in this village
+- i need more information about what is going on in this bar
+- tell me what happened in this place
+- i want to have more details about what happened here
+- i would like to know this creature
+- can you tell me what happened in this tavern
+- i will help with this monster
+- i don't know what happened in this tavern
+- let me offer my help with this creature
+- i will help with this creature
+- i would like to have more information about what is happening in this tavern
+- let me know what is going on in here
+- i would like to have more information about what happened in the village
+- i need more information about what is happening in this village
+- i want to know what is happening
+- i'd like to help you with this monster
+- i would like to know what is going on in this bar
+- i'll help with the monster in bedroom
+- can you tell me what happened in this bar
+- i want to have more details about this creature
+- i need more information about what is happening in this place
+- what can you tell me about what is happening in this tavern
+- give me information about what is going on here
+- tell me more about what is going on in here
+- give me information about what happened in this tavern
+- i would like to have more information about what is happening in this village
+- what is going on in this town
+- let me know this creature
+- what is happening in this bar
+- i want to know what is happening in the village
+- give more details of what happened in this village
+- i want to know about this creature
+- let me know what is happening in this town
+- let me know what is going on here
+- i need more information about what happened in this place
+- what can you tell me about what is going on
+- i want to know about what happened in this village
+- i want to know about what is going on in the village
+- give more details of what is going on in this bar
+- i would like to help you with this monster
+- give more details of what is going on here
+- i will help you with this creature
+- can you tell me what happened in here
+- tell me what is going on
+- tell me more about this creature
+- i want to have more details about what is happening in this bar
+- i want to know about what happened in this town
+- give more details of what is happening in this bar
+- tell me more about what is going on in the village
+- tell me more about what happened here
+- give more details of what happened in this bar
+- tell me more about what is happening here
+- give more details of the monster in bedroom
+- i don't know this monster
+- i don't know what is going on here
+- give me information about what is going on in this place
+- i would like to help with this creature
+- i will offer my help with this creature
+- i want to know about what happened in this bar
+- tell me what is going on in this town
+- i'll offer my help with this creature
+- i would like to know what happened in this bar
+- give me information about what happened in this town
+- give me information about what is happening in here
+- what is going on in this bar
+- i would like to know what is going on in this town
+- i would like to have more information about what is going on
+- i want to know what is going on
+- i need more information about what is going on in this place
+- i'll help you with the monster in bedroom
+- i would like to offer my help with this monster
+- i would like to help with the monster in bedroom
+- i would like to have more information about this monster
+- let's help with the monster in bedroom
+- i need more information about what is happening in this town
+- i would like to know what is going on in this village
+- i need details about what is going on
+- i need details about what happened in this town
+- i'd like to help you with the monster in bedroom
+- let me know what is happening in this tavern
+- i want to know what is going on in the village
+- let me know what happened
+- what can you tell me about this monster
+- i need details about the monster in bedroom
+- give more details of what is happening
+- i want to know the monster in bedroom
+- i want to know what happened in this village
+- can you tell me what happened here
+- give me information about what happened in this place
+- i don't know what happened in this place
+- give more details of what happened
+- i need more information about what is happening in here
+- i want to have more details about what is going on in this town
+- i don't know what is going on in the village
+
+## lookup:name
+./data/lookup_tables/names.txt
+
+## synonym:tavern
+- bar
+- pub
+- alehouse
+- inn
+- hostel
+
+## synonym:bedroom 1
+- room one
+- room 1
+- bedroom one
+- first room
+- first door
+
+## synonym:bedroom 2
+- room two
+- room 2
+- bedroom two
+- second room
+- second door
+
+## synonym:bedroom 3
+- room three
+- room 3
+- bedroom three
+- third room
+- third door
+
+## synonym:corridor
+- hallway
+
+## synonym:monster
+- beast
+- orc
+- creature
+- demon
+- troll
+- animal
+
+## synonym:bartender
+- barman
+- barkeeper
+- innkeeper
+- host
+- owner
+
+## synonym:villager
+- person
+- man
+- guy
+- soldier
+- gentleman
+- dude
+- fellow
+- individual

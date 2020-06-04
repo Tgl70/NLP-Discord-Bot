@@ -1,0 +1,174 @@
+{
+  	"bartender": {
+	    "greet": {
+			"pos": [
+				"Greetings traveller. Not many people come around these days, people are afraid, you know.",
+				"Hi there, wanderer. You are the first stranger I see in days. People don't come here because of this scary thing.",
+                "Good to see a new face. People don't come out of their houses. Something terrible is frightening them."
+			],
+			"neg": [
+				"Hello there. I must admit this is not a very good moment to come here",
+                "What are you doing here? People don't come out of their houses. Something terrible is frightening them."
+			]
+	    },
+	    "farewell": {
+			"pos": [
+				"Hope to see you again. Take care.",
+				"Have a safe travel. It's not easy these days."
+			],
+			"neg": [
+				"Farewell, hope that next time we see each other is in different circumstances.",
+                "Goodbye, if that means anything these days."
+			]
+	    },
+	    "thanking":{
+			"pos": [
+				"My job is to serve you as best as I can.",
+				"Always happy to help."
+			],
+			"neg": [
+				"I'm just doing my job, that's all.",
+                "Yes, whatever..."
+			]
+	    },
+		"get_position_info": {
+			"pos": [
+				"Well, this is my inn. Maybe your arrival is a good sign.",
+				"You are in my tavern, of course. Something bad happened here, you know."
+			],
+			"neg": [
+				"You came to a very dangerous place, you know. We have something big going on here.",
+				"You are in my tavern. Don't waste my time, I have better things to think about right now."
+			]
+	    },
+	    "get_inventory_info": {
+			"pos": [
+				"Oh! I'm sorry, how would I know something like that."
+			],
+			"neg": [
+				"Really? I'm not in the mood for stupid questions."
+			]
+		},
+	    "get_player_info": {
+			"pos": [
+				"You seem to be in a good fit.",
+				"You look really well. Perhaps, once this is finished, we can have a job for here."
+			],
+			"neg": [
+				"Really? I'm not in the mood for stupid questions."
+			]
+		},
+	    "ask_info": {
+			"pos": [
+				"Listen, last night that villager managed to knock down a terrible creature that has been killing people in our village. He locked it in one of the rooms we have in the corridor upstairs but you will have to talk to him if you want to enter there.",
+			    "Fine. A couple of weeks ago, the villager over there, managed to trap some dark and dangerous creature in one of the bedrooms upstairs. That is all I know."
+            ],
+			"neg": [
+				"You are a stranger to me. Why would I tell you that.",
+				"I'm not sure if it's a good idea to tell something like this to a stranger...",
+				"Oh no, I don't want to trouble you, my friend."
+			]
+		},
+		"buy_drink": {
+			"pos": [
+				"Of course, anything for the new face in town."
+			],
+			"neg": [
+				"Ok, here you have your drink."
+			]
+		},
+        "force_back": {
+			"pos": [
+				"I'm sorry, but I must get back to work, even though we are not done with this thing."
+			],
+			"neg": [
+				"Please, stop waisting my time, we have more important problems to solve here.",
+				"I do not get paid to make small talk. If you are not interested in what happened here, please get away."
+			]
+		}
+  	},
+	"villager": {
+	    "greet": {
+			"pos": [
+				"Hey, my friend. You are our only hope."
+			],
+			"neg": [
+				"Why don't you just let me alone with my drink? I don't like strangers asking things about what happened.",
+				"Ah, a stranger, how brave you are to come here, aren't you?. Better leave if you are not going to buy me a drink.",
+				"Piss off. Just want to drink alone, after what happened it's the best I can do."
+			]
+	    },
+	    "farewell": {
+			"pos": [
+				"See you my friend. Hope you can help us here."
+			],
+			"neg": [
+				"Just go already and let me drink alone.",
+				"Be gone fast. Beer is the only thing I care about now.",
+				"Get out of my face before I loose my temper. I'm sorry blonde let's drink."
+			]
+	    },
+	    "thanking":{
+			"pos": [
+				"You're welcome my friend. Anything I can do for you just ask."
+			],
+			"neg": [
+				"I don't need your thanks. I just want beer",
+	    		"Ok, now get lost. I have too much to drink to forget all this."
+			]
+	    },
+		"get_position_info": {
+			"pos": [
+				"You are sitting with me. We are friends now!"
+			],
+			"neg": [
+				"Are you making a fool of me?"
+			]
+	    },
+	    "get_inventory_info": {
+			"pos": [
+				"I have no idea my friend. How should I know?"
+			],
+			"neg": [
+				"You are really pissing me off with these dumb questions."
+			]
+		},
+	    "get_player_info": {
+			"pos": [
+				"You look amazing now that I cannot see further that this table."
+			],
+			"neg": [
+				"You look better than I am. Still I would kick your ass off."
+			]
+		},
+	    "ask_info": {
+			"pos": [
+				"I have been hunting monsters for most of my life, still I have never seen something like that. If you are able to kill the monster, I will give you 30 gold pieces, although I don't think you will make it just with your bare hands. Find a weapon in this inn first. It is trapped, and hopefully knocked out, in bedroom three. The problem is that I drop my key in the backyard and that damn goblin just swallowed it. You will have to kill it first to get it.",
+				"You consider yourself tough? That beast locked in room three, it is the most frightening being I have ever encountered. Currently it's knocked out but not dead, if you manage to kill it, I will personally escort you to the capital to meet my employer, maybe he will hire you. The thing is that a stupid goblin in the backyard has the key to access there now. Kill it first to get the key. Ah, I almost forget, find a weapon in this inn before you go to kill the beast or you will be dead before you can even blink twice.",
+				"My binding spells will not contain the monster for long. It is locked in bedroom 3 in the corridor. I have sent word for help, but I fear the creature might wake up any moment now. If you are able to kill it, I will reward you with a horse and a cloak. Let me recommend you to use a sword or something, you don't look like a witcher to me. But first you will need to kill the goblin in the backyard to get the key I dropped it there last night and I was too scare to go back."
+            ],
+			"neg": [
+				"That is none of your concern. I just want to drink. Actually you can pay the next round stranger.",
+                "If you know whats best for you kid, you should pack up your bags and leave this village for good. Beer is the only thing that will make me talk."
+			]
+		},
+		"buy_drink": {
+			"pos": [
+				"Hey, there you go. You know me quite well now."
+			],
+			"neg": [
+				"You know how to treat with drunk guys like me.",
+				"I won't say no. Beer is the only thing that keeps me awake. Not for too long, though."
+			]
+		},
+        "force_back": {
+			"pos": [
+				"Honestly my friend, I don't feel like talking too much. If you are not going to help us just leave, it'll be the best for you."
+			],
+			"neg": [
+				"I have enough shit on my mind, please stop waisting my time with useless chit-chat or get me a drink if you want me to start talking.",
+				"Do I look like I want to talk to you? Get to the beer kid. I mean point. Aargh, I'm drunk already."
+			]
+		}
+  	}
+}
